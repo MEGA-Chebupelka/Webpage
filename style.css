@@ -1,0 +1,160 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head{
+    display: flex;
+    gap: 10px;
+    padding-left: 100px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding-right: 100px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.logo{
+    width: 50px;
+    height: auto;
+}
+.header_logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.first_block{
+    background-color: #1F2937;
+    display: flex;
+    padding: 100px;
+}
+.apple{
+    width: 250px;
+    height: auto;
+}
+h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+
+}
+.left_part{
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+button{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: none;
+    width: 75px;
+    height: 25px;
+}
+.second_block{
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    font-size: 32px;
+    font-weight: 9000;
+    color: #1F2937;
+    align-self: center;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    gap: 50px;
+}
+.square1,
+.square2,
+.square3,
+.square4{
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    width: 125px;
+    height: 125px;
+}
+.one,
+.two,
+.three,
+.four{
+    width: 125px;
+    text-align: center;
+    font-size: 16px;
+    color: #1F2937;
+}
+.third_block{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 50px;
+    margin-top: 40px;
+}
+.text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.author{
+    color: #1F2937;
+    font-size: 30px;
+    font-weight:bold;
+    text-align: end;
+    padding-right: 150px;
+}
+.forth_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.penultimate{
+    background-color: #3882f6;
+    border-radius: 5px;
+    width: 900px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start ;
+    gap: 3px;
+    padding: 30px;
+}
+h4{
+    margin: 0;
+    padding: 0;
+}
+.last{
+    margin: 0;
+}
+.b{
+    border: 1px solid #F9FAF8;
+}
+footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    color: #F9FAF8;
+}
